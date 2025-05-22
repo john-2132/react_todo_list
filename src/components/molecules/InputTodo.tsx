@@ -1,5 +1,6 @@
 import { Center, HStack, Input } from "@chakra-ui/react";
-import { ChangeEvent, FC, memo, useCallback, useState } from "react";
+import { memo, useCallback, useState } from "react";
+import type { ChangeEvent, FC } from "react";
 import { useTodoList } from "../../hooks/useTodoList";
 import PrimaryButton from "../atoms/button/PrimaryButton";
 

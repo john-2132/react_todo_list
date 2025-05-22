@@ -1,5 +1,6 @@
 import { CloseButton, Dialog, Portal } from "@chakra-ui/react";
-import { FC, memo } from "react";
+import { memo } from "react";
+import type { FC } from "react";
 import { DangerButton } from "../atoms/button/DangerButton";
 import PrimaryButton from "../atoms/button/PrimaryButton";
 

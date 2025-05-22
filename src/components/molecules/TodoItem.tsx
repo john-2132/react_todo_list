@@ -1,6 +1,7 @@
-import { ChangeEvent, memo, useState } from "react";
+import { memo, useState } from "react";
+import type { ChangeEvent } from "react";
 import { useTodoList } from "../../hooks/useTodoList";
-import { Todo } from "../../types/todo";
+import type { Todo } from "../../types/todo";
 import { EditTodoForm } from "./EditTodoForm";
 import { ViewTodoItem } from "./ViewTodoItem";
 

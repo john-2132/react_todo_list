@@ -1,10 +1,10 @@
-import { Checkbox, Grid, GridItem, HStack, Text } from "@chakra-ui/react";
-import { FC, memo } from "react";
+import { Checkbox, GridItem, Text } from "@chakra-ui/react";
+import { memo } from "react";
+import type { FC } from "react";
 import PrimaryButton from "../atoms/button/PrimaryButton";
 import { DeleteConfirmModal } from "../organisms/DeleteConfirmModal";
 
 type Props = {
-  key: string;
   id: string;
   name: string;
   completed: boolean;
@@ -15,7 +15,6 @@ type Props = {
 
 export const ViewTodoItem: FC<Props> = memo((props) => {
   const {
-    key,
     id,
     name,
     completed,

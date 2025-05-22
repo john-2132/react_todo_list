@@ -1,0 +1,1 @@
+{"version":3,"file":"useEnterEscape.d.ts","sourceRoot":"","sources":["useEnterEscape.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,OAAO,CAAC;AAE3C,KAAK,OAAO,GAAG;IACb,OAAO,EAAE,MAAM,IAAI,CAAC;IACpB,QAAQ,EAAE,MAAM,IAAI,CAAC;CACtB,CAAC;AAEF,eAAO,MAAM,cAAc,GAAI,uBAAuB,OAAO,MACnD,GAAG,aAAa,CAAC,gBAAgB,CAAC,SAO3C,CAAC"}

@@ -1,5 +1,6 @@
-import { GridItem, HStack, Input } from "@chakra-ui/react";
-import { ChangeEvent, FC, KeyboardEvent, memo } from "react";
+import { GridItem, Input } from "@chakra-ui/react";
+import { memo } from "react";
+import type { ChangeEvent, FC } from "react";
 import { useEnterEscape } from "../../hooks/useEnterEscape";
 import PrimaryButton from "../atoms/button/PrimaryButton";
 

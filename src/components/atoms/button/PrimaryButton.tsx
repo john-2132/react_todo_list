@@ -1,5 +1,6 @@
 import { Button } from "@chakra-ui/react";
-import { FC, memo, ReactNode, forwardRef } from "react";
+import { memo, forwardRef } from "react";
+import type { ReactNode} from "react";
 
 type Props = {
   children: ReactNode;
