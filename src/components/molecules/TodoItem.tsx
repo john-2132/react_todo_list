@@ -6,10 +6,10 @@ import { EditTodoForm } from "./EditTodoForm";
 import { ViewTodoItem } from "./ViewTodoItem";
 
 export const TodoItem = memo((props: Todo) => {
-  const { id, name, completed } = props;
+  const { id, name, isCompleted } = props;
   const [isEditing, setIsEditing] = useState(false);
   const [editTodoText, setEditTodoText] = useState(name);
-  const [isCompletedTodo, setIsCompletedTodo] = useState(completed);
+  const [isCompletedTodo, setIsCompletedTodo] = useState(isCompleted);
 
   const { updateTodo, deleteTodo } = useTodoList();
 
@@ -19,7 +19,7 @@ export const TodoItem = memo((props: Todo) => {
 
   const onClickUpdateTodo = () => {
     if (editTodoText === "") return;
-    updateTodo({ id, name: editTodoText, completed: isCompletedTodo });
+    updateTodo({ id, name: editTodoText, isCompleted: isCompletedTodo });
     setIsEditing(false);
   };
 
@@ -32,7 +32,7 @@ export const TodoItem = memo((props: Todo) => {
 
   const onClickIsCompletedTodo = () => {
     setIsCompletedTodo(!isCompletedTodo);
-    updateTodo({ id, name, completed: !isCompletedTodo });
+    updateTodo({ id, name, isCompleted: !isCompletedTodo });
   };
 
   const onClickDeleteTodo = () => {
