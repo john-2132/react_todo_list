@@ -5,6 +5,9 @@ on:
     branches:
       - react-todo
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
