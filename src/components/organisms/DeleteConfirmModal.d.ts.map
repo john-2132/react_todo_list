@@ -1,0 +1,1 @@
+{"version":3,"file":"DeleteConfirmModal.d.ts","sourceRoot":"","sources":["DeleteConfirmModal.tsx"],"names":[],"mappings":"AAEA,OAAO,KAAK,EAAE,EAAE,EAAE,MAAM,OAAO,CAAC;AAIhC,KAAK,KAAK,GAAG;IACX,EAAE,EAAE,MAAM,CAAC;IACX,IAAI,EAAE,MAAM,CAAC;IACb,OAAO,EAAE,MAAM,IAAI,CAAC;CACrB,CAAC;AAEF,eAAO,MAAM,kBAAkB,EAAE,EAAE,CAAC,KAAK,CAiCvC,CAAC"}
