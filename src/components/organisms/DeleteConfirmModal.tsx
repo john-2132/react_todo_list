@@ -33,7 +33,7 @@ export const DeleteConfirmModal: FC<Props> = memo((props) => {
               <Dialog.ActionTrigger asChild>
                 <PrimaryButton>キャンセル</PrimaryButton>
               </Dialog.ActionTrigger>
-              <DangerButton onClick={onClick}>確認</DangerButton>
+              <DangerButton onClick={onClick}>!確認!</DangerButton>
             </Dialog.Footer>
             <Dialog.CloseTrigger asChild>
               <CloseButton size="sm" />

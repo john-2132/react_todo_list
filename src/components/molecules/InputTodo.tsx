@@ -18,7 +18,7 @@ export const InputTodo: FC = memo(() => {
 
   const onClickAddTodo = () => {
     if (todo === "") return;
-    addTodo({ id: uuidv4(), name: todo, completed: false });
+    addTodo({ id: uuidv4(), name: todo, isCompleted: false });
     setTodo("");
   };
 

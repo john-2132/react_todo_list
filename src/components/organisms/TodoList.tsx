@@ -27,7 +27,7 @@ export const TodoList = memo(() => {
                     <TodoItem
                       id={todo.id}
                       name={todo.name}
-                      completed={todo.completed}
+                      isCompleted={todo.isCompleted}
                     />
                   </Fragment>
                 ))}

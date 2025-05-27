@@ -3,8 +3,8 @@ import { useTodoList } from "../../hooks/useTodoList";
 
 export const TodoCounter = () => {
   const { todoList } = useTodoList();
-  const completedTodoCount = todoList.filter((todo) => todo.completed).length;
-  const uncompletedTodoCount = todoList.filter((todo) => !todo.completed).length;
+  const completedTodoCount = todoList.filter((todo) => todo.isCompleted).length;
+  const uncompletedTodoCount = todoList.filter((todo) => !todo.isCompleted).length;
   
   return (
     <HStack justify="center" p={3}>
